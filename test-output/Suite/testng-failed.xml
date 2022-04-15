@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="ChromeTest(failed)" parallel="classes">
+    <parameter name="browsername" value="chrome"/>
+    <classes>
+      <class name="com.sauceDemo.TestClasses.TC01loginFunctionality">
+        <methods>
+          <include name="TearDown"/>
+          <include name="browserClose"/>
+          <include name="SetUp"/>
+          <include name="LogInFunctionality"/>
+          <include name="Browserpoen"/>
+        </methods>
+      </class> <!-- com.sauceDemo.TestClasses.TC01loginFunctionality -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

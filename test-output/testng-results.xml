@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="7" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="42230" started-at="2022-04-15T14:20:38 IST" finished-at="2022-04-15T14:21:20 IST">
+    <groups>
+    </groups>
+    <test name="ChromeTest" duration-ms="42230" started-at="2022-04-15T14:20:38 IST" finished-at="2022-04-15T14:21:20 IST">
+      <class name="com.sauceDemo.TestClasses.TC05FilterFunctionality">
+        <test-method status="PASS" signature="Browserpoen(java.lang.String)[pri:0, instance:com.sauceDemo.TestClasses.TC05FilterFunctionality@60285225]" name="Browserpoen" is-config="true" duration-ms="21829" started-at="2022-04-15T14:20:38 IST" finished-at="2022-04-15T14:21:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browserpoen -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.sauceDemo.TestClasses.TC05FilterFunctionality@60285225]" name="SetUp" is-config="true" duration-ms="821" started-at="2022-04-15T14:21:00 IST" finished-at="2022-04-15T14:21:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="FilterFunctionality()[pri:0, instance:com.sauceDemo.TestClasses.TC05FilterFunctionality@60285225]" name="FilterFunctionality" duration-ms="1424" started-at="2022-04-15T14:21:01 IST" finished-at="2022-04-15T14:21:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FilterFunctionality -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.sauceDemo.TestClasses.TC05FilterFunctionality@60285225]" name="TearDown" is-config="true" duration-ms="1313" started-at="2022-04-15T14:21:02 IST" finished-at="2022-04-15T14:21:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="browserClose()[pri:0, instance:com.sauceDemo.TestClasses.TC05FilterFunctionality@60285225]" name="browserClose" is-config="true" duration-ms="566" started-at="2022-04-15T14:21:03 IST" finished-at="2022-04-15T14:21:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- com.sauceDemo.TestClasses.TC05FilterFunctionality -->
+      <class name="com.sauceDemo.TestClasses.TC03AddToCartSingleElement">
+        <test-method status="PASS" signature="Browserpoen(java.lang.String)[pri:0, instance:com.sauceDemo.TestClasses.TC03AddToCartSingleElement@29b5cd00]" name="Browserpoen" is-config="true" duration-ms="14582" started-at="2022-04-15T14:21:04 IST" finished-at="2022-04-15T14:21:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browserpoen -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.sauceDemo.TestClasses.TC03AddToCartSingleElement@29b5cd00]" name="SetUp" is-config="true" duration-ms="450" started-at="2022-04-15T14:21:18 IST" finished-at="2022-04-15T14:21:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="FAIL" signature="AddToCartSingleElement()[pri:3, instance:com.sauceDemo.TestClasses.TC03AddToCartSingleElement@29b5cd00]" name="AddToCartSingleElement" duration-ms="149" started-at="2022-04-15T14:21:19 IST" finished-at="2022-04-15T14:21:19 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Fail to Add to cart product expected [REMOVE] but found [Open Menu]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Fail to Add to cart product expected [REMOVE] but found [Open Menu]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at com.sauceDemo.TestClasses.TC03AddToCartSingleElement.AddToCartSingleElement(TC03AddToCartSingleElement.java:30)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddToCartSingleElement -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.sauceDemo.TestClasses.TC03AddToCartSingleElement@29b5cd00]" name="TearDown" is-config="true" duration-ms="309" started-at="2022-04-15T14:21:19 IST" finished-at="2022-04-15T14:21:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="browserClose()[pri:0, instance:com.sauceDemo.TestClasses.TC03AddToCartSingleElement@29b5cd00]" name="browserClose" is-config="true" duration-ms="700" started-at="2022-04-15T14:21:19 IST" finished-at="2022-04-15T14:21:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- com.sauceDemo.TestClasses.TC03AddToCartSingleElement -->
+      <class name="com.sauceDemo.TestClasses.Tc04AddToCartMutipleElement">
+        <test-method status="PASS" signature="Browserpoen(java.lang.String)[pri:0, instance:com.sauceDemo.TestClasses.Tc04AddToCartMutipleElement@7113b13f]" name="Browserpoen" is-config="true" duration-ms="13674" started-at="2022-04-15T14:21:04 IST" finished-at="2022-04-15T14:21:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browserpoen -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.sauceDemo.TestClasses.Tc04AddToCartMutipleElement@7113b13f]" name="SetUp" is-config="true" duration-ms="347" started-at="2022-04-15T14:21:18 IST" finished-at="2022-04-15T14:21:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="AddToCartMutipleElement()[pri:4, instance:com.sauceDemo.TestClasses.Tc04AddToCartMutipleElement@7113b13f]" name="AddToCartMutipleElement" duration-ms="318" started-at="2022-04-15T14:21:18 IST" finished-at="2022-04-15T14:21:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddToCartMutipleElement -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.sauceDemo.TestClasses.Tc04AddToCartMutipleElement@7113b13f]" name="TearDown" is-config="true" duration-ms="306" started-at="2022-04-15T14:21:18 IST" finished-at="2022-04-15T14:21:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="browserClose()[pri:0, instance:com.sauceDemo.TestClasses.Tc04AddToCartMutipleElement@7113b13f]" name="browserClose" is-config="true" duration-ms="619" started-at="2022-04-15T14:21:19 IST" finished-at="2022-04-15T14:21:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- com.sauceDemo.TestClasses.Tc04AddToCartMutipleElement -->
+      <class name="com.sauceDemo.TestClasses.TC06CartContainerClick">
+        <test-method status="PASS" signature="Browserpoen(java.lang.String)[pri:0, instance:com.sauceDemo.TestClasses.TC06CartContainerClick@e874448]" name="Browserpoen" is-config="true" duration-ms="20991" started-at="2022-04-15T14:20:38 IST" finished-at="2022-04-15T14:20:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browserpoen -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.sauceDemo.TestClasses.TC06CartContainerClick@e874448]" name="SetUp" is-config="true" duration-ms="1644" started-at="2022-04-15T14:20:59 IST" finished-at="2022-04-15T14:21:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="CartContainerClick()[pri:0, instance:com.sauceDemo.TestClasses.TC06CartContainerClick@e874448]" name="CartContainerClick" duration-ms="1185" started-at="2022-04-15T14:21:01 IST" finished-at="2022-04-15T14:21:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CartContainerClick -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.sauceDemo.TestClasses.TC06CartContainerClick@e874448]" name="TearDown" is-config="true" duration-ms="653" started-at="2022-04-15T14:21:02 IST" finished-at="2022-04-15T14:21:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="browserClose()[pri:0, instance:com.sauceDemo.TestClasses.TC06CartContainerClick@e874448]" name="browserClose" is-config="true" duration-ms="1174" started-at="2022-04-15T14:21:03 IST" finished-at="2022-04-15T14:21:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- com.sauceDemo.TestClasses.TC06CartContainerClick -->
+      <class name="com.sauceDemo.TestClasses.Tc02SelectFunctionality">
+        <test-method status="PASS" signature="Browserpoen(java.lang.String)[pri:0, instance:com.sauceDemo.TestClasses.Tc02SelectFunctionality@45820e51]" name="Browserpoen" is-config="true" duration-ms="15013" started-at="2022-04-15T14:21:04 IST" finished-at="2022-04-15T14:21:19 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browserpoen -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.sauceDemo.TestClasses.Tc02SelectFunctionality@45820e51]" name="SetUp" is-config="true" duration-ms="475" started-at="2022-04-15T14:21:19 IST" finished-at="2022-04-15T14:21:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="SelectFunctionality()[pri:2, instance:com.sauceDemo.TestClasses.Tc02SelectFunctionality@45820e51]" name="SelectFunctionality" duration-ms="130" started-at="2022-04-15T14:21:19 IST" finished-at="2022-04-15T14:21:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectFunctionality -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.sauceDemo.TestClasses.Tc02SelectFunctionality@45820e51]" name="TearDown" is-config="true" duration-ms="319" started-at="2022-04-15T14:21:19 IST" finished-at="2022-04-15T14:21:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="browserClose()[pri:0, instance:com.sauceDemo.TestClasses.Tc02SelectFunctionality@45820e51]" name="browserClose" is-config="true" duration-ms="605" started-at="2022-04-15T14:21:20 IST" finished-at="2022-04-15T14:21:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- com.sauceDemo.TestClasses.Tc02SelectFunctionality -->
+      <class name="com.sauceDemo.TestClasses.TC07Checkout1Functionality">
+        <test-method status="PASS" signature="Browserpoen(java.lang.String)[pri:0, instance:com.sauceDemo.TestClasses.TC07Checkout1Functionality@687080dc]" name="Browserpoen" is-config="true" duration-ms="20990" started-at="2022-04-15T14:20:38 IST" finished-at="2022-04-15T14:20:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browserpoen -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.sauceDemo.TestClasses.TC07Checkout1Functionality@687080dc]" name="SetUp" is-config="true" duration-ms="1629" started-at="2022-04-15T14:20:59 IST" finished-at="2022-04-15T14:21:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="Checkout1Functionality()[pri:0, instance:com.sauceDemo.TestClasses.TC07Checkout1Functionality@687080dc]" name="Checkout1Functionality" duration-ms="1605" started-at="2022-04-15T14:21:01 IST" finished-at="2022-04-15T14:21:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Checkout1Functionality -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.sauceDemo.TestClasses.TC07Checkout1Functionality@687080dc]" name="TearDown" is-config="true" duration-ms="854" started-at="2022-04-15T14:21:02 IST" finished-at="2022-04-15T14:21:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="browserClose()[pri:0, instance:com.sauceDemo.TestClasses.TC07Checkout1Functionality@687080dc]" name="browserClose" is-config="true" duration-ms="579" started-at="2022-04-15T14:21:03 IST" finished-at="2022-04-15T14:21:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- com.sauceDemo.TestClasses.TC07Checkout1Functionality -->
+      <class name="com.sauceDemo.TestClasses.TC01loginFunctionality">
+        <test-method status="PASS" signature="Browserpoen(java.lang.String)[pri:0, instance:com.sauceDemo.TestClasses.TC01loginFunctionality@42d8062c]" name="Browserpoen" is-config="true" duration-ms="20937" started-at="2022-04-15T14:20:38 IST" finished-at="2022-04-15T14:20:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browserpoen -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.sauceDemo.TestClasses.TC01loginFunctionality@42d8062c]" name="SetUp" is-config="true" duration-ms="1705" started-at="2022-04-15T14:20:59 IST" finished-at="2022-04-15T14:21:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="LogInFunctionality()[pri:1, instance:com.sauceDemo.TestClasses.TC01loginFunctionality@42d8062c]" name="LogInFunctionality" duration-ms="429" started-at="2022-04-15T14:21:01 IST" finished-at="2022-04-15T14:21:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogInFunctionality -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.sauceDemo.TestClasses.TC01loginFunctionality@42d8062c]" name="TearDown" is-config="true" duration-ms="2301" started-at="2022-04-15T14:21:01 IST" finished-at="2022-04-15T14:21:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="browserClose()[pri:0, instance:com.sauceDemo.TestClasses.TC01loginFunctionality@42d8062c]" name="browserClose" is-config="true" duration-ms="572" started-at="2022-04-15T14:21:03 IST" finished-at="2022-04-15T14:21:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- com.sauceDemo.TestClasses.TC01loginFunctionality -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite1 -->
+</testng-results>
