@@ -6,6 +6,7 @@ import java.time.Duration;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
+import org.testng.Reporter;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -28,6 +29,7 @@ public class TC01loginFunctionality extends BaseTestClass
 		System.out.println("Expected Url"+ExpectedHomepageURL);
 	    String ActualHomepageURL=driver.getCurrentUrl();
 		System.out.println("Actual URL"+ActualHomepageURL);
+	
 		
 		log.info("validating login");
 		UtilityClass.TakeScreenshot(driver);

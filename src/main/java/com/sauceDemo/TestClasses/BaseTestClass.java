@@ -20,7 +20,7 @@ import com.sauceDemo.POMClasses.HomePage;
 import com.sauceDemo.POMClasses.Loginpage;
 @Listeners(UtilityPackage.Listeners.class)
 public class BaseTestClass 
-{   WebDriver driver;
+{  public WebDriver driver;
 Logger log;
 @Parameters("browsername")
 @BeforeClass
@@ -42,6 +42,7 @@ public void Browserpoen(String browsername)
 		 
 		 driver=new FirefoxDriver();        ;
 		System.out.println("browser is open");
+		
 		
 	}
 	else
